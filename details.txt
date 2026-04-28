@@ -1,0 +1,156 @@
+Q.1:Need to build - RAG-based Mutual Fund FAQ Chatbot.
+Details - 
+Pick ONE product from the following list:
+INDMoney
+Groww
+PowerUp Money
+Wealth Monitor
+Kuvera.
+
+Mutual Fund FAQs (Facts-Only Q&A)
+Milestone brief
+Build a small FAQ assistant that answers facts about mutual fund schemes—e.g., expense ratio, exit load, minimum SIP, lock-in (ELSS), riskometer, benchmark, and how to download statements—using only official public pages. Every answer must include one source link. No advice.
+
+Who this helps
+Retail users comparing schemes; support/content teams answering repetitive MF questions.
+
+What you must build
+Scope your corpus: Pick one AMC and 3–5 schemes under it (e.g., one large-cap, one flexi-cap, one ELSS).
+Collect 15–25 public pages from AMC/SEBI/AMFI (factsheets, KIM/SID, scheme FAQs, fee/charges pages, riskometer/benchmark notes, statement/tax-doc guides).
+FAQ assistant (working prototype):
+Answers factual queries only (e.g., “Expense ratio of ?”, “ELSS lock-in?”, “Minimum SIP?”, “Exit load?”, “Riskometer/benchmark?”, “How to download capital-gains statement?”).
+Shows one clear citation link in every answer.
+Refuses opinionated/portfolio questions (e.g., “Should I buy/sell?”) with a polite, facts-only message and a relevant educational link.
+Tiny UI: welcome line + 3 example questions and a note: “Facts-only. No investment advice.”
+Key constraints
+Public sources only. No screenshots of the app back-end; no third-party blogs as sources.
+No PII. Do not accept/store PAN, Aadhaar, account numbers, OTPs, emails, or phone numbers.
+No performance claims. Don’t compute/compare returns; link to the official factsheet if asked.
+Clarity & transparency. Keep answers ≤3 sentences; add “Last updated from sources: ”.
+What to submit (deliverables)
+Working prototype link (app/notebook) or a ≤3-min demo video if hosting isn’t possible.
+Source list (CSV/MD) of the 15–25 URLs you used.
+README with setup steps, scope (AMC + schemes), and known limits.
+Sample Q&A file (5–10 queries with the assistant’s answers + links).
+Disclaimer snippet used in your UI (facts-only, no advice).
+Skills being tested
+W1 — Thinking Like a Model: identify the exact fact asked; decide answer vs. refuse.
+W2 — LLMs & Prompting: instruction style, concise phrasing, polite safe-refusals, citation wording.
+W3 — RAGs (only): small-corpus retrieval with accurate citations from AMC/SEBI/AMFI pages.
+
+Answer : Here is your full project description translated into clear English 👇
+
+📊 RAG-based Mutual Fund FAQ Chatbot
+🔹 What you need to build
+
+You need to build a small FAQ chatbot that answers facts-only questions about mutual fund schemes.
+
+🏢 Choose ONE platform
+
+Select any one product from the list below:
+
+INDMoney
+Groww
+PowerUp Money
+Wealth Monitor
+Kuvera
+📌 Project Objective
+
+Build an FAQ assistant that can answer questions like:
+
+What is the expense ratio?
+What is exit load?
+What is the minimum SIP?
+What is the ELSS lock-in period?
+What is a riskometer?
+What is the benchmark?
+How to download a statement?
+
+👉 Every answer must include a source link
+👉 No investment advice is allowed
+
+👥 Who is this for
+Retail investors comparing schemes
+Support or content teams handling repeated queries
+🧠 What you need to build
+1. 📚 Data Collection (Corpus)
+Choose one AMC (Asset Management Company)
+Select 3–5 schemes, for example:
+Large-cap
+Flexi-cap
+ELSS
+
+👉 Collect 15–25 official public pages, such as:
+
+Factsheets
+KIM / SID documents
+Scheme FAQs
+Charges / fees pages
+Riskometer / benchmark details
+Statement / tax guides
+2. 🤖 FAQ Chatbot (Prototype)
+
+The chatbot should:
+
+✅ Answer only fact-based questions
+❌ Refuse opinion-based queries like “Should I invest?”
+
+👉 Instead, respond with:
+
+“I can only provide factual information, not investment advice.”
+
+Provide an educational source link
+3. 🖥️ Simple UI
+
+Your UI should include:
+
+Welcome message
+3 example questions
+A note:
+👉 “Facts-only. No investment advice.”
+⚠️ Important Rules
+✅ Must Do
+Use only official sources (AMC, SEBI, AMFI)
+Include at least 1 source link per answer
+Keep answers within 3 lines
+End each answer with:
+👉 “Last updated from sources: ”
+❌ Must NOT Do
+Do NOT collect personal data (PAN, Aadhaar, OTP, etc.)
+Do NOT calculate returns or comparisons
+Do NOT give investment advice
+Do NOT use third-party blogs
+📦 What to Submit
+✅ Working prototype (app or notebook)
+OR
+🎥 Demo video (≤ 3 minutes)
+📄 Source list (CSV or Markdown)
+→ 15–25 URLs
+📘 README file:
+Setup steps
+AMC + selected schemes
+Limitations
+📑 Sample Q&A:
+5–10 questions
+Answers + source links
+⚠️ Disclaimer snippet:
+👉 “Facts-only, no investment advice”
+🧪 Skills Being Evaluated
+🧠 W1 — Model Thinking
+Understanding the question
+Refusing when needed
+✍️ W2 — Prompting
+Clear and short answers
+Polite refusal
+Proper citation
+🔍 W3 — RAG
+Retrieving correct info from small dataset
+Providing correct source links
+🧾 Summary
+
+👉 This is a facts-only mutual fund chatbot
+👉 Must be built using RAG
+👉 No investment advice allowed
+👉 Every answer must include a source link
+
+
